@@ -15,6 +15,7 @@ pipeline {
                 sh '''
                     python3 -m venv venv
                 '''
+		echo 'venv done'
             }
         }
 
